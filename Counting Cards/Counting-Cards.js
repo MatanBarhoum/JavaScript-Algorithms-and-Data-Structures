@@ -1,7 +1,6 @@
 let count = 0;
 let action = "";
 function cc(card) {
-  // Only change code below this line
   switch (card) {
     case 2:
     case 3:
@@ -29,6 +28,5 @@ if (count >= 1) {
 }
 
   
-  // Only change code above this line
 }
 cc(2); cc(3); cc(7); cc('K'); cc('A');
