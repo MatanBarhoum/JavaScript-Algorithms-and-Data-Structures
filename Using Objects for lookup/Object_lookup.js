@@ -1,8 +1,6 @@
-// Setup
 function phoneticLookup(val) {
   let result = "";
 
-  // Only change code below this line
   const lookup = {
     "alpha": "Adams",
     "bravo": "Boston",
@@ -13,7 +11,6 @@ function phoneticLookup(val) {
     "": undefined
   };
   result = lookup[val];
-  // Only change code above this line
   return result;
 }
 
