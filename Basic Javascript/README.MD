@@ -1,6 +1,6 @@
-# Basic JavaScript Notes
+# My Basic JavaScript Class Notes
 
-JavaScript Notes :
+<h2>JavaScript Notes :</h2>
 1.	Unlike var, in ES6 the javascript language introduce the “let” keyword, which make a variable be declared once. For example if I use “var I = john” and then “var I = me” then “I = me”. Unlike “let” that if I use “let I = me” and then “let I = not me” then error will occur. <br>
 2.	Const is like let but is read-only. A variable with const will not change. <br>
 3.	Operators : +, -, *, / (just like c#)  <br>
