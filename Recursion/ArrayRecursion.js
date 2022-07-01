@@ -8,7 +8,7 @@ function countdown(n){
     return countArray;
   }
 }
-console.log(countdown(10))
+console.log(countdown(10))  // return [ 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 ]
 
 // CountUp
 
@@ -21,4 +21,4 @@ function countup(n) {
     return countArray;
   }
 }
-console.log(countup(5));
+console.log(countup(5)); //return [1, 2, 3, 4, 5]
