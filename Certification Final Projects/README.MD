@@ -5,9 +5,9 @@
   <li>Palindrome Checker</li>
   <li>Roman Numeral Converter</li>
   <li>Caesars Cipher</li>
+  <li>Telephone Number Validator</li>
 <ul>
 <h2>TODO</h2>
   <ul>
-  <li>Telephone Number Validator</li>
   <li>Cash Register</li>
 <ul>
