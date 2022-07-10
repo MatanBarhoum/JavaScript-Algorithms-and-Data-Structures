@@ -40,3 +40,7 @@ function lookUpProfile(name, prop) {
 }
 
 lookUpProfile("Akira", "likes");
+
+
+Things I need to remember :
+1. Looking at objects (JSON) can be in two diffrent ways. one is object.prop or object[prop]. when the property is a string, a undefined will be shown as output. therefore if I work with string and JSON I should always preffer working with bracets []
