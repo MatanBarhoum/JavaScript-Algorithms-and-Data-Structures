@@ -49,7 +49,10 @@ let timesToCopy = 2;
 console.log(copyMhine([1,2,3], timesToCopy); // will copy the array twice into new array. excpected output [[1,2,3], [1, 2, 3]]
 
 
-4. indexOf operator - since arrays can be changed and mutated, there is no guarantee that a particular data will be in place. javascript provide a built-in  option to find the index of a specific data and to check wheter it is exist. if it is exist, it will return the indexOf. if the element does not exist, it will return -1. simple example-function to demo the function indexOf :
+4. indexOf operator - since arrays can be changed and mutated, there is no guarantee that a particular data will be in place. 
+//javascript provide a built-in  option to find the index of a specific data and to check wheter it is exist.
+//if it is exist, it will return the indexOf. if the element does not exist, it will return -1. 
+//simple example-function to demo the function indexOf :
 
 function quickCheck(arr, elem) {
 if (arr.indexOf(elem) !== -1) {
