@@ -1,0 +1,42 @@
+Manipulating Arrays - Arrays are containers for data. for exmaple - [1, 2, "three", 4, true]. 
+1. To remove an object from the start of an array - shift().
+2. To remove an objectr fromt the end of an array - pop().
+3. To Add an object to the end of an array - push(object value).
+4. To add an object to the start of an array - unshift(object value).
+
+///
+Using splice() to manipulate arrays - splice() allows to remove any object within an array from anywhere within an array.
+splice(starting index, amount) - Example:
+const arr = [2, 4, 5, 1, 7, 5, 2, 1];
+arr.splice(3, 4); // [2, 4, 5, 1]
+
+1. Use the 3rd parameter in splice() to add to the array. // splice(3, 4, amountToAdd)
+///
+
+///
+Using slice() to extract or copy values from a array into another array. slice(startIndex, stopIndex) // Example:
+let array1 = [1, 2, 3];
+let array2 = array1.slice(0, 3);
+///
+
+///
+ES6 introduce the spread (...) syntax, which copies whole array into a new one, all with simple, readable code. Example:
+let testArray = [1, 2, 3, 4];
+let newTestArray = [...testArray];
+return newTestArray; // output [1, 2, 3, 4]
+
+## Lesson Code ###
+function copyMachine(arr, num) {
+  let newArr = [];
+  while (num >= 1) {
+    newArr.push([...arr])
+    num--;
+  }
+  return newArr;
+}
+
+console.log(copyMachine([true, false, true], 2));
+### Lesson Code ###
+
+Another huge advantage of the spread (...) is the ability to combine arrays togehter. Example:
+let testArray = ['is', 'fun'];
