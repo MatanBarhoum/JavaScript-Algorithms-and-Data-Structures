@@ -38,5 +38,15 @@ function copyMachine(arr, num) {
 console.log(copyMachine([true, false, true], 2));
 ### Lesson Code ###
 
-Another huge advantage of the spread (...) is the ability to combine arrays togehter. Example:
-let testArray = ['is', 'fun'];
+Anoter advaantage of spread operator is the ability to insert array values into secific location weithin another array. for example:
+let arr = ['I', 'Love'];
+let newArr = [...arr, 'pizza'];
+return newArr; // output ['I', 'love', 'pizza'];
+
+4. indexOf operator - since arrays can be changed and mutated, there is not guarantee that a particular data will be in place. javascript provide a built-in  option to find the index of a specific data and to check wheter it is exist. if it is exist, it will return the indexOf. if the element does not exist, it will return -1. simple example-function to demo the function indexOf :
+
+function quickCheck(arr, elem) {
+if (arr.indexOf(elem) !== -1) {
+return true; }
+return false;
+}
